@@ -1,15 +1,12 @@
 package edu.macalester.cs124.guessing;
 
 public class Player {
-	public Player(){
-		
-	}
 	
 	public void startNewGame(){
 		guess = 0;
 	}
 	
-	public static int nextGuess(){
+	public int nextGuess(){
 		return guess;	
 	}
 	
@@ -22,5 +19,5 @@ public class Player {
 		
 	}
 
-	public static int guess;
+	public int guess;
 }
